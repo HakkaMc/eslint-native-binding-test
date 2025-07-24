@@ -4,11 +4,11 @@ Repo for presenting "Resolve error: Cannot find native binding" error
 I have problem to run eslint on my notebook with Windows 11 in Powershell or Git Bash. 
 In WSL Ubuntu it works well.
 
-**Specification**
+**Notebook Specification**
 - HP EliteBook 640 G11
 - Windows 11 Pro, 10.0.26100
 - CPU Intel Core Ultra 5 125U
-- used command line: PowerShell
+- used command line: PowerShell or Git Bash
 - NVM for Windows
 - Node version 24.4.1
 
@@ -37,3 +37,15 @@ C:\Users\test\Work\eslint-native-binding-test\eslint.config.mjs
     at require (node:internal/modules/helpers:135:16)
     at Object.<anonymous> (C:\Users\test\Work\eslint-native-binding-test\node_modules\eslint-import-resolver-typescript\lib\index.cjs:30:31)  import/no-unresolved
 ```
+
+But on my Desktop PC computer it works well!
+
+**Desktop PC Specification**
+- PC build by myself
+- Windows 11 Pro, 10.0.26100
+- CPU AMD Ryzen 9 7900
+- used command line: PowerShell or Git Bash
+- NVM for Windows
+- Node version 24.4.1
+
+So I don't know where is the problem on my notebook and how to solve it.
